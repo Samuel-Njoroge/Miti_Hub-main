@@ -70,11 +70,30 @@ body{
     font-size: 20px;
     font-family: Abhaya Libre;
 }
-.container{
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  
   
 }
+h4{
+  font-family: inter;
+  align-items: center;
+}
+h3{
+  font-family: inter;
+  font-size: 35px;
+  align-items: center;
+}
 
+.flex-container .container-fluid{
+  padding-left: 5%;
+}
 
+.container {
+  outline: 1px solid #0A2640;
+}
 
 .footer {
     background-color: #0A2640;

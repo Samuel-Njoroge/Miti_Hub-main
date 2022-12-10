@@ -90,3 +90,44 @@ body{
 .footer .copyright{
     padding-top: 10px;
 }
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.row{
+    margin-left: 1%;
+}
+
+.house {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+.column .house img{
+    height: 150px;
+
+}
+.wrapper {
+    padding: 0 16px;
+    background-color: white;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+h3 {
+    align-content: center;
+    font-size: medium;
+}
+
+
+.row img {
+    border-radius: 10px;
+}
+
