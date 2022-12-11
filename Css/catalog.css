@@ -105,6 +105,7 @@ text-decoration: none;
 .item {
   border-radius: 50%;
   width: 50%;
+  height: 50%;
 }
 
 /* Style the text below the images */
@@ -116,11 +117,26 @@ h6 {
   margin: 10px 0;
 }
 
+
 h5{
   color: #03A47E;
 }
   
 h5 button{
   size: 0.1cm;
+  height: 0.1cm;
+}
+
+.row-cols{
+  display: flex;
+  margin: 2em;
+  margin-right: 2em;
+  
+}
+.col{
+  overflow: hidden;
+}
+h4{
+  margin-right: 1em;
 
 }
